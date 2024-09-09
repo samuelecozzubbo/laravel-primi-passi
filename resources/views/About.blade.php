@@ -42,6 +42,7 @@
                 </tr>
             </tbody>
         </table>
+        <a class="btn btn-primary" href="/" role="button">Home</a>
     </div>
 </body>
 

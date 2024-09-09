@@ -26,6 +26,7 @@
                 <h3>Non ci sono colori</h3>
             @endif
         </ul>
+        <a class="btn btn-primary" href="/" role="button">Home</a>
     </div>
 
 
