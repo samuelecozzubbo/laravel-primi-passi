@@ -11,8 +11,25 @@
 </head>
 
 <body>
-    <h1>{{ $titolo }}</h1>
-    <h2>{{ $sottotitolo }}</h2>
+    <div class="container">
+        <h1>{{ $titolo }}</h1>
+        <h2>{{ $sottotitolo }}</h2>
+
+        {{-- Ciclo For Each --}}
+        <h3>Ciclo foreach</h3>
+        <ul style="list-style: none">
+            @if (count($colori) > 0)
+                @foreach ($colori as $colore)
+                    <li>{{ $loop->iteration }}: {{ $colore }}</li>
+                @endforeach
+            @else
+                <h3>Non ci sono colori</h3>
+            @endif
+        </ul>
+    </div>
+
+
+
 </body>
 
 </html>
