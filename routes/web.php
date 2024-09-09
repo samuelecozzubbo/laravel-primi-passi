@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $titolo = 'Hello World';
+    $sottotitolo = 'Questo è il mio primo progetto in php';
+    $colori = ['rosso', 'giallo', 'verde', 'blu', 'arancione', 'viola'];
+    return view('HelloWorld', compact('titolo', 'sottotitolo', 'colori'));
 });
