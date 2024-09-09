@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid mb-3">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">Navbar</a>
@@ -37,6 +37,9 @@
                 </div>
             </div>
         </nav>
+    </div>
+    <div class="container">
+
         <h1>About Us</h1>
         <table class="table">
             <thead>
